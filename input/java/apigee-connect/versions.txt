@@ -1,0 +1,4 @@
+google-cloud-java:1.48.0:1.48.0-SNAPSHOT
+google-cloud-apigee-connect:2.53.0:2.54.0-SNAPSHOT
+grpc-google-cloud-apigee-connect-v1:2.53.0:2.54.0-SNAPSHOT
+proto-google-cloud-apigee-connect-v1:2.53.0:2.54.0-SNAPSHOT

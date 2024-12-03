@@ -1,0 +1,31 @@
+gapic_generator_version: 2.49.0
+googleapis_commitish: 48d30c4966ef9ea31b897e13f75d8f94070cc8e9
+libraries_bom_version: 26.49.0
+
+# the libraries are ordered with respect to library name, which is
+# java-{library.library_name} or java-{library.api-shortname} when
+# library.library_name is not defined.
+libraries:
+- api_shortname: apigeeconnect
+  name_pretty: Apigee Connect
+  product_documentation: https://cloud.google.com/apigee/docs/hybrid/v1.3/apigee-connect/
+  api_description: allows the Apigee hybrid management plane to connect securely to
+    the MART service in the runtime plane without requiring you to expose the MART
+    endpoint on the internet.
+  library_name: apigee-connect
+  release_level: stable
+  GAPICs:
+  - proto_path: google/cloud/apigeeconnect/v1
+
+# TODO the java generator produces outputs in different folder structures, depending on whether it is running in
+#  "monorepo" mode or not.
+# Apparently, this mode is selected based on the number of libraries listed in this file. As I could not find a way to
+# force it to run in monorepo mode with a single library, I am adding an extra library config here for now.
+- api_shortname: accessapproval
+  name_pretty: Access Approval
+  product_documentation: https://cloud.google.com/access-approval/docs/
+  api_description: enables controlling access to your organization's data by Google
+    personnel.
+  release_level: stable
+  GAPICs:
+    - proto_path: google/cloud/accessapproval/v1

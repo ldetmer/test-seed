@@ -1,0 +1,10 @@
+protos:
+  - google/api/annotations.proto
+  - google/api/client.proto
+  - google/api/field_behavior.proto
+  - google/api/http.proto
+  - google/api/launch_stage.proto
+  - google/api/resource.proto
+  - google/cloud/apigeeconnect/v1/connection.proto
+  - google/cloud/apigeeconnect/v1/tether.proto
+  - google/rpc/status.proto
