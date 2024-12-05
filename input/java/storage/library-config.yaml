@@ -1,0 +1,3 @@
+generator:
+  name: generator/java-split-repos
+  tag: latest
