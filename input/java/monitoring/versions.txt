@@ -1,0 +1,4 @@
+google-cloud-java:1.48.0:1.48.0-SNAPSHOT
+google-cloud-monitoring:3.55.0:3.56.0-SNAPSHOT
+grpc-google-cloud-monitoring-v3:3.55.0:3.56.0-SNAPSHOT
+proto-google-cloud-monitoring-v3:3.55.0:3.56.0-SNAPSHOT
