@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Dec 04 14:14:55 EST 2024
+gax-grpc-2.58.0-testlib.jar>central=
+gax-grpc-2.58.0.jar>central=
+gax-grpc-2.58.0.pom>central=
